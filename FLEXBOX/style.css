@@ -1,0 +1,119 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container-principal {
+    height: 100vh;
+    background-color: #4281A4;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    background-color: #EAD2AC;
+    width: 50%;
+    margin: 2px;
+}
+
+.content1 {
+    background-color: #56494C;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-flow: wrap;
+}
+
+.element1 {
+   background-color: #9CAFB7;
+   margin: 3px;
+   width: 45%;
+   height: 15%;
+}
+
+.element1:last-child {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.content2 {
+    background-color: #EAD2AC;
+    display: flex;
+    height: 100%;
+    align-content: space-between;
+    flex-flow: wrap;
+}
+
+.element2 {
+    background-color: #4C0827;
+    margin: 2px;
+    width: 100%;
+    height: 20%;
+}
+
+.content3 {
+    background-color: #80D39B;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.element3 {
+    background-color: #100007;
+    width: 25%;
+    margin: 2px;
+    padding: 5px;
+}
+
+.element3:last-child {
+    align-self: flex-end;
+    /* padding-top: 35%; */
+    width: 100%;
+    height: 65%;
+}
